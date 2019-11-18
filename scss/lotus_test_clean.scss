@@ -125,10 +125,10 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Biotif", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #4e5565;
+  color: rgb(15, 57, 22);
   background-color: #fff;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased
@@ -142,13 +142,7 @@ input {
 }
 
 a {
-  color: #2d7ccc;
-  text-decoration: none
-}
-
-a:focus,
-a:hover {
-  color: #1f568d;
+  color: #1b532d;
   text-decoration: none
 }
 
@@ -759,22 +753,6 @@ input[type=submit]:focus {
   outline-offset: -2px
 }
 
-.btn:focus,
-.btn:hover,
-.community-recent-activity .recent-activity-controls a:focus,
-.community-recent-activity .recent-activity-controls a:hover,
-.lines-button:focus,
-.lines-button:hover,
-.topbar .login:focus,
-.topbar .login:hover,
-[role=button]:focus,
-[role=button]:hover,
-input[type=submit]:focus,
-input[type=submit]:hover {
-  color: #0c9;
-  text-decoration: none
-}
-
 .btn:active,
 .community-recent-activity .recent-activity-controls a:active,
 .lines-button:active,
@@ -790,59 +768,27 @@ input[type=submit]:active {
 .btn--default,
 .community-recent-activity .recent-activity-controls a,
 [role=button] {
-  color: #0c9;
+  color: #3eae5f;
   background-color: transparent;
-  border-color: #0c9
+  border-color: #3eae5f;
 }
 
-.btn--default:active,
-.btn--default:focus,
-.btn--default:hover,
-.community-recent-activity .recent-activity-controls a:active,
-.community-recent-activity .recent-activity-controls a:focus,
-.community-recent-activity .recent-activity-controls a:hover,
-[role=button]:active,
-[role=button]:focus,
-[role=button]:hover {
-  color: #008f6b;
-  background-color: transparent;
-  border-color: #008f6b
-}
+
 
 .btn--primary,
 input[type=submit] {
   color: #fff;
-  background-color: #0c9;
-  border-color: #0c9
+  background-color: #3eae5f;
+  border-color: #3eae5f
 }
 
-.btn--primary:active,
-.btn--primary:focus,
-.btn--primary:hover,
-input[type=submit]:active,
-input[type=submit]:focus,
-input[type=submit]:hover {
-  color: #fff;
-  background-color: #008f6b;
-  border-color: #008f6b
-}
+
 
 .btn--topbar,
 .topbar .login {
-  color: #0c9;
+  color: #fff;
   background-color: transparent;
-  border-color: #0c9
-}
-
-.btn--topbar:active,
-.btn--topbar:focus,
-.btn--topbar:hover,
-.topbar .login:active,
-.topbar .login:focus,
-.topbar .login:hover {
-  color: #008f6b;
-  background-color: transparent;
-  border-color: #008f6b
+  border-color: #fff
 }
 
 .container {
@@ -1049,7 +995,7 @@ input[type=submit]:hover {
   width: 100%;
   margin-bottom: calc(16px * 1.5);
   color: #fff;
-  background-color: #1f3249;
+  background-color: #0f3916;
   border-color: #0c9;
   border-style: solid;
   border-width: 0
@@ -1250,6 +1196,7 @@ input[type=submit]:hover {
 .help-center-name {
   display: inline-block;
   margin: 0;
+  margin-left: 20px;
   vertical-align: middle
 }
 
@@ -1448,17 +1395,16 @@ input[type=submit]:hover {
     display: table
   }
 }
-
-.custom-block__link:active .custom-block__icon path,
-.custom-block__link:focus .custom-block__icon path,
-.custom-block__link:hover .custom-block__icon path {
-  fill: #1f3249
+.custom-block__link .custom-block__icon path,
+.custom-block__link .custom-block__icon path,
+.custom-block__link .custom-block__icon path {
+  fill: #3eae5f;
 }
 
 .custom-block__link:active .custom-block__icon circle,
 .custom-block__link:focus .custom-block__icon circle,
-.custom-block__link:hover .custom-block__icon circle {
-  stroke: #1f3249
+.custom-block__link .custom-block__icon circle {
+  stroke: #3eae5f;
 }
 
 .custom-block__icon {
@@ -1500,7 +1446,7 @@ input[type=submit]:hover {
 .custom-block__title {
   font-size: 16px;
   font-weight: 600;
-  color: #4e5565;
+  color: #3eae5f;
   text-transform: uppercase
 }
 
@@ -1581,18 +1527,10 @@ input[type=submit]:hover {
   color: #fff;
   text-align: center;
   vertical-align: middle;
-  background-color: #1f3249;
+  background-color: #0f3916;
   border-radius: 4px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease
-}
-
-.category-list-item__link:active,
-.category-list-item__link:focus,
-.category-list-item__link:hover {
-  color: #fff;
-  text-decoration: none;
-  background-color: #069
 }
 
 @media (min-width:768px) {
@@ -1736,7 +1674,7 @@ input[type=submit]:hover {
   font-size: calc(16px - 2px);
   line-height: 1.1;
   color: #fff;
-  background-color: #1f3249
+  background-color: #0f3916;
 }
 
 .footer__inner {
